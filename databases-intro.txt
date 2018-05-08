@@ -1,0 +1,70 @@
+Questions
+
+1. What data types do each of these values represent?
+
+   1."A Clockwork Orange"---string
+   2.42--- Integer
+   3.09/02/1945---Date
+   4.98.7---Float
+   5.$15.99---Float
+  
+
+2.Explain when a database would be used. Explain when a text file would be used.
+
+
+A:  A data base would be used to store and easily change/access a large data set. A text file would be better used for JSON data.
+
+
+3.Describe one difference between SQL and other programming languages.
+A: SQL is a query language, which means it does one thing: define queries and getting information from data bases.  Programming languages are general purpose languages which means they can do many things like build video games, and complex computer programs..
+
+4. In your own words, explain how the pieces of a database system fit together at a high level.
+
+A:Databases are setup like tables, using a language unreadable by humans which is used to access the data. The table has rows and columns(defining what data represents) and each cell in the table contains a particular value ( a piece of info the column name describes). Databases use SQL to obtain results from the table, make changes or add new data.
+
+
+5.Explain the meaning of table, row, column, and value.
+
+A: A Table is a framework where vertical columns define what the data represents and horizontal rows with are collections of data that go together. Each intersection of a row and column is a cell which contains a particular value. 
+
+
+
+6.List three data types that can be used in a table.
+
+A: string, integer, object.
+
+7. Given this payments table, provide an English description of the following queries and include their results:
+
+     We SELECT  two columns: date, amount
+     FROM the payments table;
+
+     We SELECT the amount column
+     FROM the payments table
+     WHERE the value of amount > 500;
+
+     We SELECT ALL columns
+     FROM the payments table
+     WHERE the value of payee is equal to 'Mega Foods';
+
+8.Given this users table, write SQL queries using the following criteria and include the output:
+
+The email and sign-up date for the user named DeAndre Data:
+
+SELECT email, sign-up date
+FROM users;
+WHERE user = 'DeAndre Data';
+
+
+The user ID for the user with email 'aleesia.algorithm@uw.edu':
+
+SELECT id
+FROM users
+WHERE email = 'aleesia.algorithm@uw.edu';
+
+All the columns for the user ID equal to 4:
+
+SELECT *
+FROM users
+WHERE userid = 4;
+
+
